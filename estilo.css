@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0px;
+    font-family: fantasy;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffffff;
+    color: #000000;
+}

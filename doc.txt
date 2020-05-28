@@ -1,0 +1,7 @@
+Cor padrão:
+    - Escuro: #000000
+    - Claro: #ffffff
+    - Detalhe: #ff30cb
+
+Fonte padrão:
+    - 
