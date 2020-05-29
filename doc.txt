@@ -5,3 +5,8 @@ Cor padrão:
 
 Fonte padrão:
     - 
+
+Sites de Referencia
+    - Menu Lateral https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+    - Menu Mobile https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+    - 
