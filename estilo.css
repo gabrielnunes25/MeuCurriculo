@@ -9,7 +9,7 @@
 :root {
     --cor-escura: #000000;
     --cor-clara: #ffffff;
-    --cor-detalhe: #ff30cb;
+    --cor-detalhe: #e65080;
 }
 
 body {
@@ -33,7 +33,6 @@ body {
 .menu a {
     color: var(--cor-clara);
     display: block;
-
     padding: 10px 5px;
     text-align: right;
     text-decoration: none;
@@ -49,12 +48,24 @@ header {
     height: 90vh;
 }
 
+h2{
+    color: var(--cor-detalhe)
+}
+
+.titulo{
+
+}
+
+.sub-titulo{
+    color: var(--cor-clara)
+}
+
 footer {
     background-color: var(--cor-escura);
     color: var(--cor-clara);
     text-align: center;
     position: relative;
     width: 100%;
-    height: 10vh;
+    /* height: 10vh; */
     bottom: 0;
 }
