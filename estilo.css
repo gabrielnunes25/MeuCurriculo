@@ -305,7 +305,7 @@ footer .grid{
     footer .grid{
         display: grid;
         gap: 1em;
-        grid-template-columns: 200px;
+        grid-template-columns: 230px;
         justify-content: center;
         padding-bottom: 20px;
         padding-top: 15px;
