@@ -22,9 +22,10 @@ body {
 
 
 .menu{
+    background-color: var(--cor-escura);
     height: 100%;
     overflow: hidden;
-    margin-top: 30px;
+    padding-top: 30px;
     position: fixed;
     top: 0;
     left: 0;
