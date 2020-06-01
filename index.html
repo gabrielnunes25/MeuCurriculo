@@ -12,15 +12,15 @@
 <body>
     <header class="cabecalho">
         <nav class="menu">
-            <a href="sobre">Sobre Mim</a>
-            <a href="aspiracao">Aspirações</a>
-            <a href="">Formação Acadêmica <br/>e Experiência</a>
-            <a href="">Habilidades</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#aspiracao">Aspirações</a>
+            <a href="#formacao">Formação Acadêmica <br/>e Experiência</a>
+            <a href="#habilidades">Habilidades</a>
         </nav>
         <div>
             <h1 class="titulo">Gabriel Nunes Silva</h1>
             
-            <h2 class="sub-titulo">Estudante de Sistema de Informação</h2>
+            <h2 class="sub-titulo line typing-animation">Estudante de Sistema de Informação</h2>
             
             <figure class="foto-perfil">
                 <img src="" alt="">
@@ -30,10 +30,13 @@
 
     <section class="sobre" id="sobre">
         <h2 class="titulo-sec">Sobre Mim</h2>
-        <p>Meu nome é Gabriel, 21 anos, sou uma pessoa muito carismática, gosto de conversar e aprender coisas novas. Possuo uma facilidade muito grande em aprender, com isso me adapto rapidamente às situações que me encontro. Sempre gostei muito da área da computação e quando descobri a programação sabia que era isso que eu tinha  que fazer</p>
+        <div>
+            <img src="img/foto-perfil.png" alt="" class="avatar">
+            <p>Meu nome é Gabriel, 21 anos, sou uma pessoa muito carismática, gosto de conversar e aprender coisas novas. Possuo uma facilidade muito grande em aprender, com isso me adapto rapidamente às situações que me encontro. Sempre gostei muito da área da computação e quando descobri a programação sabia que era isso que eu tinha  que fazer.</p>
+        </div>
     </section>
-
-    <hr>
+        
+    <hr/>
     
     <section class="aspiracao" id="aspiracao">
         <h2 class="titulo-sec">Aspirações</h2>
@@ -66,98 +69,144 @@
         </div>
     </section>
     
+    <hr/>
+
     <section class="formacao" id="formacao">
         <h2 class="titulo-sec">Formação Acadêmica e Experiência</h2>
-        <table>
-            <tr>
-                <td><img src="img/icone-chapeu.png" alt="icone de chapeu de foramndo">
-                </td>
-                <td>
-                    <h3>Ensino Médio</h3>
-                    <ul>
-                        <li>Instituição: Colégio Duque de Caxias</li>
-                        <li>Término: 12/2016</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="img/icone-chapeu.png" alt="icone de chapeu de foramndo">
-                </td>
-                <td>
-                    <h3>Técnico em Informática</h3>
-                    <ul>
-                        <li>Instituição: SENAC</li>
-                        <li>Término: 06/2018</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="img/icone-chapeu.png" alt="icone de chapeu de foramndo">
-                </td>
-                <td>
-                    <h3>Sistema de Informação</h3>
-                    <ul>
-                        <li>Instituição: Univesidade Vila Velha</li>
-                        <li>Período: Noturno (19h10min às 22h40min)</li>
-                        <li>Inicio: 06/2019</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td><img src="img/icone-maleta.png" alt="icone maleta">
-                </td>
-                <td>
-                    <h3>AFG Soluções Tecnológicas</h3>
-                    <ul>
-                        <li>Análista de suporte</li>
-                        <li>Periodo: Dez/2018 - 04/2019</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+        <div class="grid">
+            <table>
+                <tr>
+                    <td><img src="img/icone-chapeu.png" alt="icone de chapeu de foramndo">
+                    </td>
+                    <td>
+                        <h3>Ensino Médio</h3>
+                        <ul>
+                            <li>Instituição: Colégio Duque de Caxias</li>
+                            <li>Término: 12/2016</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/icone-chapeu.png" alt="icone de chapeu de foramndo">
+                    </td>
+                    <td>
+                        <h3>Técnico em Informática</h3>
+                        <ul>
+                            <li>Instituição: SENAC</li>
+                            <li>Término: 06/2018</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/icone-chapeu.png" alt="icone de chapeu de foramndo">
+                    </td>
+                    <td>
+                        <h3>Sistema de Informação</h3>
+                        <ul>
+                            <li>Instituição: Univesidade Vila Velha</li>
+                            <li>Período: Noturno (19h10min às 22h40min)</li>
+                            <li>Inicio: 06/2019</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/icone-maleta.png" alt="icone maleta">
+                    </td>
+                    <td>
+                        <h3>AFG Soluções Tecnológicas</h3>
+                        <ul>
+                            <li>Análista de suporte</li>
+                            <li>Periodo: Dez/2018 - 04/2019</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </section>
+
+    <hr/>
     
     <section class="habilidades" id="habilidades">
         <h2 class="titulo-sec">Habilidades</h2>
-        <table>
-            <tr>
-                <td>HTML e CSS</td>
-                <td>0 0 0 0</td>
-            </tr>
-            <tr>
-                <td>Javascript</td>
-                <td>0 0 0 0</td>
-            </tr>
-            <tr>
-                <td>Java</td>
-                <td>0 0</td>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>0 0 0</td>
-            </tr>
-            <tr>
-                <td>Lógica de Programação</td>
-                <td>0 0 0 0</td>
-            </tr>
-            <tr>
-                <td>Microsoft Offie</td>
-                <td>0 0 0</td>
-            </tr>
-            <tr>
-                <td>Inglês</td>
-                <td>0 0 0</td>
-            </tr>
-        </table>
+        <div class="grid">
+            <table>
+                <tr>
+                    <td>HTML e CSS</td>
+                    <td>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lógica de <br> Programação</td>
+                    <td>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Microsoft Offie</td>
+                    <td>                        
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Inglês</td>
+                    <td>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                        <span class="circulo"></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <footer class="rodape">
-        <h3>Contatos</h3>
-        <p>Vila Velha - ES</p>
-        <p>gabrielns2503@gmail.com</p>
+        <div class="grid">
+            <div>
+                <h3>Contatos</h3>
+                <p>Vila Velha - ES</p>
+                <p>gabrielns2503@gmail.com</p>
+            </div>
+            
+            <div>
+                <h3>Sobre Mim</h3>
+                <P>Para tudo tem um jeito!</P>
+            </div>
+        </div>
 
-        <h3>Sobre Mim</h3>
-        <P>para tudo tem um jeito!</P>
+        
         <p>&copy; G.N.S. Enterprise</p>
     </footer>
 </body>

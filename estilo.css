@@ -20,6 +20,14 @@ body {
     color: var(--cor-escura);
 }
 
+hr{
+    color: var(--cor-escura);
+    background-color: var(--cor-escura);
+    height: 5px;
+    margin-left: 230px;
+    margin-top: 30px;;
+    margin-bottom: 30px;
+}
 
 .menu{
     background-color: var(--cor-escura);
@@ -53,13 +61,13 @@ header{
     color: var(--cor-clara);
     display: flex;
     height: 90vh;
-    padding-left: 165px;
+    padding-left: 200px;
 }
 
 h2{
     color: var(--cor-detalhe);
     font-size: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .titulo,
@@ -69,11 +77,11 @@ h2{
 }
 
 .titulo{
-    font-size: 5em ;
+    font-size: 4.5em ;
 }
 
 .sub-titulo{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 section{
@@ -81,14 +89,33 @@ section{
     padding-left: 200px;
 }
 
-.aspiracao{
-    /* background-color: aqua; */
-    
+section p{
+    text-align: left;
 }
+
+.sobre div{
+    display: inline-block;
+}
+
+.sobre p{
+    text-indent: 25px;
+}
+
+.sobre img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    float: left;
+    margin-right: 10px;
+    border: solid;
+    border-color: var(--cor-detalhe);
+}
+
 
 .aspiracao .grid{
     display: grid;
-    gap: 3em;
+    gap: 3.5em;
     grid-template-columns: repeat(3, 70px);
     justify-content: center;
 }
@@ -99,20 +126,74 @@ section{
 
 figure{
     text-align: center;
-    font-size: 0.75em;
+    width: 150px;
+}
+
+.formacao .grid{
+    display: grid; 
+    justify-content: center;
+    padding-bottom: 20px;
+    justify-items: left;
+}
+
+.formacao td{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+.habilidades .grid{
+    display: grid; 
+    justify-content: center;
+    padding-bottom: 20px;
+    justify-items: left;
+}
+
+.habilidades td{
+    text-align: left;
+    padding: 5px;
+}
+
+.circulo{
+    height: 15px;
+    width: 15px;
+    background-color: var(--cor-detalhe);
+    border-radius: 50%;
+    display: inline-block;
 }
 
 footer {
     background-color: var(--cor-escura);
     color: var(--cor-clara);
     text-align: center;
+    align-items: center;
     position: relative;
     width: 100%;
     /* height: 10vh; */
     bottom: 0;
+    padding-left: 200px;
+    padding-bottom: 20px;
 }
 
-@media (max-width: 1000px){
+footer h3{
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+footer .grid{
+    display: grid;
+    gap: 3.5em;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+@media (max-width: 800px){
+    hr{
+        margin-left: 80px;
+    }
+
     .titulo{
         font-size: 3em ;
     }
@@ -123,5 +204,81 @@ footer {
 
     .aspiracao .grid{
         grid-template-columns: 50px;
+
+    }
+    .aspiracao img{
+        height: 100px;
+    }
+    
+    header,
+    footer,
+    section,
+    figure{
+        padding-left: 0px;
+    }
+
+    section p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .menu{
+        height: 60px;
+        width: 100%;
+        padding-top: 0px;
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu a {
+        display: block;
+        text-align: center;
+    }
+
+    .sobre img{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        float: none;
+    }
+
+    .sobre p{
+        text-align: center;
     }
 }
+
+.line {
+        border-right: 2px solid rgba(255, 255, 255, 0.75);
+        text-align: center;
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .typing-animation {
+            animation: blinkCursor 500ms steps(40) infinite normal,
+            typing 4s steps(40) 1s normal both;
+            /* animation-iteration-count: infinite;
+            animation-direction: alternate; */
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 18em;
+        }
+      }
+
+      @keyframes blinkCursor {
+        from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+        }
+        to {
+          border-right-color: transparent;
+        }
+      }
