@@ -1,10 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    vertical-align: baseline;
+    box-sizing: border-box;
     list-style: none;
     border: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 :root {
     --cor-escura: #000000;
@@ -19,13 +20,14 @@ body {
     color: var(--cor-escura);
 }
 
+
 .menu{
     height: 100%;
     overflow: hidden;
     margin-top: 30px;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     overflow-x: hidden;
     z-index: 1;
 }
@@ -33,6 +35,7 @@ body {
 .menu a {
     color: var(--cor-clara);
     display: block;
+    font-size: 16px;
     padding: 10px 5px;
     text-align: right;
     text-decoration: none;
@@ -42,22 +45,60 @@ body {
     background-color: var(--cor-detalhe);
 }
 
-header {
+header{
+    align-items: center;
+    justify-content: center;
     background-color: var(--cor-escura);
     color: var(--cor-clara);
+    display: flex;
     height: 90vh;
+    padding-left: 165px;
 }
 
 h2{
-    color: var(--cor-detalhe)
+    color: var(--cor-detalhe);
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.titulo,
+.sub-titulo{
+    color: var(--cor-clara);
+    text-align: center;
 }
 
 .titulo{
-
+    font-size: 5em ;
 }
 
 .sub-titulo{
-    color: var(--cor-clara)
+    font-size: 3em;
+}
+
+section{
+    text-align: center;
+    padding-left: 200px;
+}
+
+.aspiracao{
+    /* background-color: aqua; */
+    
+}
+
+.aspiracao .grid{
+    display: grid;
+    gap: 3em;
+    grid-template-columns: repeat(3, 70px);
+    justify-content: center;
+}
+
+.aspiracao img{
+    height: 70px;
+}
+
+figure{
+    text-align: center;
+    font-size: 0.75em;
 }
 
 footer {
@@ -68,4 +109,18 @@ footer {
     width: 100%;
     /* height: 10vh; */
     bottom: 0;
+}
+
+@media (max-width: 1000px){
+    .titulo{
+        font-size: 3em ;
+    }
+    
+    .sub-titulo{
+        font-size: 1em;
+    }
+
+    .aspiracao .grid{
+        grid-template-columns: 50px;
+    }
 }

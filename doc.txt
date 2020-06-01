@@ -4,9 +4,15 @@ Cor padrão:
     - Detalhe: #ff30cb
 
 Fonte padrão:
-    - 
+    - Texto: Montserrat Light
+    - Titulos: League Spartan
+    - Menu: Montserrat Classic
 
 Sites de Referencia
     - Menu Lateral https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
     - Menu Mobile https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
-    - 
+    - Barra de Progresso https://www.w3schools.com/howto/howto_js_progressbar.asp
+    - Fazer circulos https://www.w3schools.com/howto/howto_css_circles.asp
+    - Timeline https://www.w3schools.com/howto/howto_css_timeline.asp
+    - Barra de Skill https://www.w3schools.com/howto/howto_css_skill_bar.asp
+    - Mudar Menu de lado https://www.w3schools.com/howto/howto_js_sticky_header.asp
